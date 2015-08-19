@@ -14,6 +14,9 @@
 		9426D2841B842EF100CDBDB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9426D2821B842EF100CDBDB9 /* LaunchScreen.storyboard */; };
 		9426D28F1B842EF100CDBDB9 /* MyGoogleSignInButtonExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426D28E1B842EF100CDBDB9 /* MyGoogleSignInButtonExampleTests.swift */; };
 		9426D29A1B842EF100CDBDB9 /* MyGoogleSignInButtonExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426D2991B842EF100CDBDB9 /* MyGoogleSignInButtonExampleUITests.swift */; };
+		9426D2AA1B84310600CDBDB9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9426D2A91B84310600CDBDB9 /* GoogleService-Info.plist */; };
+		9426D2B21B84414E00CDBDB9 /* ProtectedPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9426D2B11B84414E00CDBDB9 /* ProtectedPageViewController.swift */; };
+		CF23DC6C7F84D2C8D06A74B8 /* libPods-MyGoogleSignInButtonExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4D5F30961D3FC6AB7F7808 /* libPods-MyGoogleSignInButtonExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F4D5F30961D3FC6AB7F7808 /* libPods-MyGoogleSignInButtonExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyGoogleSignInButtonExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCBA32CD26A362822743083 /* Pods-MyGoogleSignInButtonExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGoogleSignInButtonExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyGoogleSignInButtonExample/Pods-MyGoogleSignInButtonExample.release.xcconfig"; sourceTree = "<group>"; };
 		9426D2761B842EF100CDBDB9 /* MyGoogleSignInButtonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGoogleSignInButtonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9426D2791B842EF100CDBDB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9426D27B1B842EF100CDBDB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,10 @@
 		9426D2951B842EF100CDBDB9 /* MyGoogleSignInButtonExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGoogleSignInButtonExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9426D2991B842EF100CDBDB9 /* MyGoogleSignInButtonExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGoogleSignInButtonExampleUITests.swift; sourceTree = "<group>"; };
 		9426D29B1B842EF100CDBDB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9426D2A91B84310600CDBDB9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9426D2AE1B84360900CDBDB9 /* MyGoogleSignInButtonExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyGoogleSignInButtonExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		9426D2B11B84414E00CDBDB9 /* ProtectedPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectedPageViewController.swift; sourceTree = "<group>"; };
+		DC2AC572C6614E215822C03B /* Pods-MyGoogleSignInButtonExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGoogleSignInButtonExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyGoogleSignInButtonExample/Pods-MyGoogleSignInButtonExample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF23DC6C7F84D2C8D06A74B8 /* libPods-MyGoogleSignInButtonExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F5A063EE1F76DE74DF00630 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F4D5F30961D3FC6AB7F7808 /* libPods-MyGoogleSignInButtonExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9426D26D1B842EF100CDBDB9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +99,8 @@
 				9426D28D1B842EF100CDBDB9 /* MyGoogleSignInButtonExampleTests */,
 				9426D2981B842EF100CDBDB9 /* MyGoogleSignInButtonExampleUITests */,
 				9426D2771B842EF100CDBDB9 /* Products */,
+				D797B0C12ED5108FF5AABA48 /* Pods */,
+				6F5A063EE1F76DE74DF00630 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +117,15 @@
 		9426D2781B842EF100CDBDB9 /* MyGoogleSignInButtonExample */ = {
 			isa = PBXGroup;
 			children = (
+				9426D2A91B84310600CDBDB9 /* GoogleService-Info.plist */,
 				9426D2791B842EF100CDBDB9 /* AppDelegate.swift */,
 				9426D27B1B842EF100CDBDB9 /* ViewController.swift */,
 				9426D27D1B842EF100CDBDB9 /* Main.storyboard */,
 				9426D2801B842EF100CDBDB9 /* Assets.xcassets */,
 				9426D2821B842EF100CDBDB9 /* LaunchScreen.storyboard */,
 				9426D2851B842EF100CDBDB9 /* Info.plist */,
+				9426D2AE1B84360900CDBDB9 /* MyGoogleSignInButtonExample-Bridging-Header.h */,
+				9426D2B11B84414E00CDBDB9 /* ProtectedPageViewController.swift */,
 			);
 			path = MyGoogleSignInButtonExample;
 			sourceTree = "<group>";
@@ -125,6 +148,15 @@
 			path = MyGoogleSignInButtonExampleUITests;
 			sourceTree = "<group>";
 		};
+		D797B0C12ED5108FF5AABA48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC2AC572C6614E215822C03B /* Pods-MyGoogleSignInButtonExample.debug.xcconfig */,
+				6BCBA32CD26A362822743083 /* Pods-MyGoogleSignInButtonExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9426D29E1B842EF100CDBDB9 /* Build configuration list for PBXNativeTarget "MyGoogleSignInButtonExample" */;
 			buildPhases = (
+				17A8C2BF5FDAF4C10985525F /* Check Pods Manifest.lock */,
 				9426D2721B842EF100CDBDB9 /* Sources */,
 				9426D2731B842EF100CDBDB9 /* Frameworks */,
 				9426D2741B842EF100CDBDB9 /* Resources */,
+				9D5C5AE9CAD1D646F6066C3D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,6 +221,7 @@
 		9426D26E1B842EF100CDBDB9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Sergey Kargopolov";
 				TargetAttributes = {
@@ -229,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9426D2841B842EF100CDBDB9 /* LaunchScreen.storyboard in Resources */,
+				9426D2AA1B84310600CDBDB9 /* GoogleService-Info.plist in Resources */,
 				9426D2811B842EF100CDBDB9 /* Assets.xcassets in Resources */,
 				9426D27F1B842EF100CDBDB9 /* Main.storyboard in Resources */,
 			);
@@ -250,12 +286,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17A8C2BF5FDAF4C10985525F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D5C5AE9CAD1D646F6066C3D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGoogleSignInButtonExample/Pods-MyGoogleSignInButtonExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9426D2721B842EF100CDBDB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9426D27C1B842EF100CDBDB9 /* ViewController.swift in Sources */,
+				9426D2B21B84414E00CDBDB9 /* ProtectedPageViewController.swift in Sources */,
 				9426D27A1B842EF100CDBDB9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,23 +464,30 @@
 		};
 		9426D29F1B842EF100CDBDB9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2AC572C6614E215822C03B /* Pods-MyGoogleSignInButtonExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyGoogleSignInButtonExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kargopolov.MyGoogleSignInButtonExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyGoogleSignInButtonExample/MyGoogleSignInButtonExample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		9426D2A01B842EF100CDBDB9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BCBA32CD26A362822743083 /* Pods-MyGoogleSignInButtonExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyGoogleSignInButtonExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kargopolov.MyGoogleSignInButtonExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyGoogleSignInButtonExample/MyGoogleSignInButtonExample-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -481,6 +558,7 @@
 				9426D2A01B842EF100CDBDB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9426D2A11B842EF100CDBDB9 /* Build configuration list for PBXNativeTarget "MyGoogleSignInButtonExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +567,7 @@
 				9426D2A31B842EF100CDBDB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9426D2A41B842EF100CDBDB9 /* Build configuration list for PBXNativeTarget "MyGoogleSignInButtonExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +576,7 @@
 				9426D2A61B842EF100CDBDB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
